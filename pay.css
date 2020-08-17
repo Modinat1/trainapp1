@@ -1,0 +1,62 @@
+:root{
+    box-sizing: border-box;
+}
+*,
+::before,
+::after{
+    box-sizing: inherit;
+}
+.container{
+    background-color: teal;
+    max-width: 85%;
+    margin: 0 auto;
+    padding: 30px 50px;
+    border-radius: 50px 50px 50px 0;
+    overflow: hidden;
+}
+body{
+    background-color: whitesmoke;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+}
+form h1{
+    text-align: center;
+}
+.form-group input{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    margin: 20px auto;
+    padding: 10px 20px;
+    border-radius: 5px;
+    outline: none;
+}
+.btn{
+    background-color: yellow;
+    width: 100%;
+    padding: 10px 50px;
+    margin: 20px auto;
+    border-radius: 20px;
+
+}
+.btn a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    font-weight: bolder;
+    text-transform: uppercase;
+}
+.btn:hover{
+    background-color: whitesmoke;
+    color: black;
+}
+@media screen and (max-width: 800px){
+    .container{
+        width: 100%;
+        margin: 0 auto;
+        padding: 10px 20px;
+    }
+    
+}
